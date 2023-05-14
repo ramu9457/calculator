@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+    
+    <table border="1">
+    <tr>
+        <td colspan="3"> <input type="text" id="num">
+           </td>
+           <td> <button onclick="res()">AC</button></td>  
+           </tr>
+           <tr>
+               <td class="one"><button onclick="show('1')">1</button></td>
+               <td class="one"><button onclick="show('2')">2</button></td>
+               <td class="one"><button onclick="show('3')">3</button></td>
+               <td class="one"><button onclick="show('+')">+</button></td>
+           </tr>
+           
+           <tr>
+              <td class="one"><button onclick="show('4')">4</button></td>
+               <td class="one"><button onclick="show('5')">5</button></td>
+               <td class="one"><button onclick="show('6')">6</button></td>
+               <td class="one"><button onclick="show('-')">-</button></td>
+               </tr>
+        
+          <tr>
+          <td class="one"><button onclick="show('7')">7</button></td>
+               <td class="one"><button onclick="show('8')">8</button></td>
+               <td class="one"><button onclick="show('9')">9</button></td>
+               <td class="one"><button onclick="show('*')"></button></td>
+               </tr>
+               
+            <tr>
+                <td class="one"><button onclick="show('0')">0</button></td>
+               <td class="one"><button onclick="show('%')">%</button></td>
+               <td class="one"><button onclick="show('/')">/</button></td>
+               <td class="one"><button onclick="calc()">=</button></td>
+            </tr>
+    </table>
+        <script src="calc.js"></script>
+    </body>
+</html>
